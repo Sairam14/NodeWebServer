@@ -1,4 +1,4 @@
-node('docker') {
+node {
     def app
 
     stage('clone repository'){
@@ -6,7 +6,7 @@ node('docker') {
     }
 
     stage('build image'){
-        app = docker.build("Sairam14/NodeWebServer")
+        app = docker.build("NodeWebServer")
     }
 
     stage('test image'){
