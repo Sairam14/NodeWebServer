@@ -6,7 +6,7 @@ node('docker') {
     }
 
     stage('build image'){
-        app = docker.build("NodeWebServer")
+        app = docker.build("Sairam14/NodeWebServer")
     }
 
     stage('test image'){
