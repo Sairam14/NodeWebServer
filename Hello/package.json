@@ -1,0 +1,19 @@
+{
+    "name": "nodeapp",
+    "version" : "1.0.0",
+    "description": "A hello world http server",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test":"echo no test specified"
+    },
+    "repository" :{
+        "type": "git",
+        "url": "https://github.com/Sairam14/NodeWebServer.git"
+    },
+    "keywords": [
+        "node",
+        "docker",
+        "dockerfile"
+    ]
+}
